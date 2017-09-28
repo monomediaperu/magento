@@ -1,0 +1,10 @@
+.idea
+package-lock.json
+node_modules
+front/bower_components
+front/node_modules
+front/dist
+front/.tmp
+front/.sass-cache
+front/package-lock.json
+front/.gitignore

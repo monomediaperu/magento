@@ -1,0 +1,25 @@
+{
+  "name": "monomedia",
+  "version": "1.0.0",
+  "description": "MonoMedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monomediaperu/monomarketing-demo.git"
+  },
+  "author": "Lou Alcalá Hurtado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monomediaperu/monomarketing-demo/issues"
+  },
+  "homepage": "https://github.com/monomediaperu/monomarketing-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "mongoose": "^4.11.13",
+    "nodemon": "^1.12.1"
+  }
+}
