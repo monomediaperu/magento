@@ -1,12 +1,9 @@
-'use strict';
+(function () {
 
-/**
- * @ngdoc overview
- * @name frontApp
- * @description
- * # frontApp
- *
- * Main module of the application.
- */
-angular
-  .module('frontApp', []);
+    angular
+        .module('frontApp', [
+            'ui.router',
+            'ngScrollbars'
+        ]);
+
+}());

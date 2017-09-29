@@ -1,0 +1,42 @@
+.header-lines-decoration {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 6px;
+    z-index: 1;
+
+    span {
+        height: 100%;
+        width: 14%;
+        float: left;
+
+        &:first-child,
+        &:last-child {
+            width: 15%;
+        }
+    }
+
+    .bg-secondary-color {
+        background-color: #273f5b;
+    }
+
+    .bg-blue {
+        background-color: #0082d7;
+    }
+
+    .bg-blue-light {
+        background-color: #98d5ff;
+    }
+
+    .bg-orange-light {
+        background-color: #F89101;
+    }
+
+    .bg-red {
+        background-color: #ff3133;
+    }
+
+    .bg-green {
+        background-color: #01a23c;
+    }
+}

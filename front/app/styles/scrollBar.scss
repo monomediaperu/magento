@@ -1,0 +1,7 @@
+.mCSB_container_wrapper {
+    margin-right: 0;
+
+    &.mCS_no_scrollbar_x.mCS_x_hidden > .mCSB_container {
+        padding-right: 0;
+    }
+}
