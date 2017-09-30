@@ -1,21 +1,21 @@
 <nav class="navbar navbar-reverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button class="navbar-toggle collapse">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false" data-target="#main-menu">
                 <i class="fa fa-bars"></i>
             </button>
-            <a ui-sref="main.Home()" class="navbar-brand">Mono<span>Media</span></a>
+            <a ui-sref="main.Home()" ng-click="vm.collapseModal()" class="navbar-brand">Mono<span>Media</span></a>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="main-menu">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a ui-sref="main.Prices()">Precios</a>
+                    <a data-toggle="collapse" data-target="#main-menu" ui-sref="main.Prices()">Precios</a>
                 </li>
                 <li>
-                    <a ui-sref="main.About()">Nosotros</a>
+                    <a data-toggle="collapse" data-target="#main-menu" ui-sref="main.About()">Nosotros</a>
                 </li>
                 <li>
-                    <a href="">Contacto</a>
+                    <a data-toggle="collapse" data-target="#main-menu" href="">Contacto</a>
                 </li>
             </ul>
         </div>

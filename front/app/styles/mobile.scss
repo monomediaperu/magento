@@ -1,0 +1,62 @@
+@media screen and (max-width: 720px) {
+    .contant-wrap {
+        .site-half {
+            height: inherit;
+            padding-bottom: 50px;
+
+            .main-desc {
+                margin: 0 10%;
+                position: relative;
+                transform: none;
+                top: inherit;
+                margin-top: 50px;
+
+                h1 {
+                    font-size: 35px;
+                    line-height: 1em;
+                    text-align: center;
+                    margin-bottom: 20px;
+
+                    strong {
+                        display: block;
+                    }
+                }
+
+                p {
+                    text-align: center;
+                }
+            }
+
+            &.content-middle {
+                img {
+                    position: relative;
+                    top: inherit;
+                    transform: none;
+                }
+            }
+        }
+    }
+
+    .st-footer {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        background-color: #101517;
+    }
+
+    .navbar-fixed-top {
+        position: relative;
+        background-color: #101517;
+    }
+
+    .navbar {
+        .navbar-nav {
+            a {
+                color: #fff!important;
+                display: block;
+                background-color: transparent!important;
+            }
+        }
+    }
+}
